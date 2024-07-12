@@ -1,0 +1,12 @@
+db:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: postgres
+  database: algorithms
+
+http:
+  listenAddr: "0.0.0.0:8080"
+
+deployWorker:
+  cronString: "* 0/5 * * * *"
